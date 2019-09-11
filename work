@@ -1,0 +1,12 @@
+
+##sort list based on second value
+##when two values are present
+
+import numpy as np
+from operator import itemgetter
+degree=G.degree()
+degree=list(degree)
+degree.sort(key=lambda x:x[1])
+
+
+

@@ -14,5 +14,11 @@ degree
 # find node with largest degree
     node_and_degree = G.degree()
     (largest_hub, degree) = sorted(node_and_degree, key=itemgetter(1))[-1]
+    
+    
+    
+    
+    *************************************************************************
+        { print(i)  for i in range(10)}
 
 

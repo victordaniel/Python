@@ -7,6 +7,12 @@ from operator import itemgetter
 degree=G.degree()
 degree=list(degree)
 degree.sort(key=lambda x:x[1])
+degree
 
+########method 2
+
+# find node with largest degree
+    node_and_degree = G.degree()
+    (largest_hub, degree) = sorted(node_and_degree, key=itemgetter(1))[-1]
 
 

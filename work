@@ -41,3 +41,19 @@ print(df)
 
 print(df.loc[df['A'] == 'foo'])
 
+________________________________________________________________________________________________________________________
+import time
+import math
+
+start_time = time.time()
+
+a = 111
+b = 2
+c =math.pow(b,a)
+print(c) #3
+
+end_time = time.time()
+total_time = end_time - start_time
+print("Time: ", total_time)
+print("a=",a)
+
